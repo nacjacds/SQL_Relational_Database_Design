@@ -22,11 +22,11 @@ Este proyecto consiste en la creación de una base de datos relacional para gest
 
 ## Modelo Entidad-Relación (E/R)
 
-![assets/Modelo_Entidad_Relacion.png](assets/Modelo_Entidad_Relacion.png)
+![assets/Model_Entity_Relationship.png](assets/Model_Entity_Relationship.png)
 
 ## Modelo Lógico de la Base de Datos
 
-![assets/Modelo_Logico.png](assets/Modelo_Logico.png)
+![assets/Logic_Model.png](assets/Logic_Model.png)
 
 ## Estructura de la Base de Datos
 
@@ -157,3 +157,4 @@ INNER JOIN programas pro ON pro.programaid = pral.programaid
 INNER JOIN programa_docentes prd ON prd.programaid = pro.programaid
 INNER JOIN docentes doc ON doc.docenteid = prd.docenteid
 GROUP BY  doc.docenteid, doc.nombre
+```
