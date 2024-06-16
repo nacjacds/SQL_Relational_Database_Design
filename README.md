@@ -2,7 +2,7 @@
 # Relational Database Creation Project
 
 ## Description
-This project consisted of the creation of a relational database to manage information about students and teachers at a school specialized in bootcamps in Spain. Based on non-normalized input data, the aim was to design a standardized and scalable database structure to support the academic and administrative management of an educational institution of these characteristics.
+This project consisted of the creation of a relational database to manage information about students and teachers at a school specialised in bootcamps in Spain. Based on non-normalised input data, the aim was to design a standardised and scalable database structure to support the academic and administrative management of an educational institution of these characteristics.
 
 ## Goals
 
