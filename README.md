@@ -29,15 +29,16 @@ This project consisted of the creation of a relational database to manage inform
 
 ## Database structure
 
-La base de datos está compuesta por las siguientes tablas:
+The database is made up of the following tables:
 
-- **alumnos**: Almacena información sobre los alumnos.
-- **docentes**: Almacena información sobre los docentes.
-- **programa_alumnos**: Relaciona los alumnos con los programas en los que están inscritos.
-- **programa_docentes**: Relaciona los docentes con los programas en los que enseñan.
-- **programas**: Almacena información sobre los programas académicos.
-- **promociones**: Almacena información sobre las promociones de los programas.
-- **notas**: Almacena las notas de los alumnos en los distintos programas.
+- **alumnos**: Stores information about students.
+- **docentes**: Stores information about teachers.
+- **programa_alumnos**: Relates the students to the programs in which they are enrolled.
+- **programa_docentes**: Relates teachers to the programs in which they teach.
+- **programas**: Stores information about academic programs.
+- **promociones**: Stores information about program promotions.
+- **notas**: Stores the students' notes in the different programs.
+
 
 ## Descripción de las Tablas
 
