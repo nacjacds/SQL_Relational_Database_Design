@@ -1,34 +1,33 @@
 ![Header Image](assets/header.jpg)
-# Proyecto de Creación de Base de Datos Relacional
+# Relational Database Creation Project
 
-## Descripción
+## Description
+This project consists of the creation of a relational database to manage information about students and teachers at a bootcamp school. Based on unnormalised input data, a standardised and scalable database structure has been designed to support the academic and administrative management of an educational institution of these characteristics.
 
-Este proyecto consiste en la creación de una base de datos relacional para gestionar información de alumnos y docentes de una escuela de bootcamps. A partir de unos datos de entrada sin normalizar, se ha diseñado una estructura normalizada y escalable de base de datos que soporte la gestión académica y administrativa de una institución educativa de estas caracterísitcas.
+## Goals
 
-## Objetivos
-
-- ✔️ **Normalización de Datos:** para eliminar la redundancia y garantizar la integridad de los datos.
-- ✔️ **Modelo Entidad-Relación (E/R):** que represente la estructura de la base de datos normalizada.
-- ✔️ **Modelo Lógico de la Base de Datos:** Con base en el modelo E/R, desarrollar un modelo lógico.
-- ✔️ **Creación de la Base de Datos:** Utilizando el sistema de gestión de bases de datos de PostgreSQL.
-- ❌ **Alojar en algún servidor** vuestras bases de datos para poder acceder desde aplicaciones de terceros.
+- ✔️ **Data Normalisation:** to remove redundancy and ensure data integrity.
+- ✔️ **Entity-Relationship (E/R) Model:** representing the structure of the normalised database.
+- ✔️ **Database Logical Model:** based on the E/R model.
+- ✔️ **Database Creation:** using the PostgreSQL database management system.
+- ❌ **Host databases on a remote server** to be able to access from third-party applications.
 
 ## Assumptions
 
-- Los alumnos pueden cursar diferentes bootcamps en diferentes promociones y modalidades; no al mismo tiempo.
-- Los docentes pueden impartir el mismo bootcamp en diferentes promociones y modalidades.
-- La modalidad de los alumnos se deja por completar ya que no se nos ha proporcionado el dato. Interesante para escalabilidad.
-- Las docentes Rosalva Ayuso y Angelica Corral estan asociadas a programas sin alumnos, y por tanto sin promocion asociada; no los incluimos hasta tener los datos completos.
+- Students can take different bootcamps in different promotions and modalities; not at the same time.
+- Teachers can teach the same bootcamp in different promotions and modalities.
+- The student modality is left to be completed since the information has not been provided to us. Interesting for scalability.
+- Teachers Rosalva Ayuso and Angelica Corral are associated with programs without students, and therefore without associated promotion; We do not include them until we have complete data.
 
-## Modelo Entidad-Relación (E/R)
+## Entity-Relationship (E/R) Model
 
 ![assets/Model_Entity_Relationship.png](assets/Model_Entity_Relationship.png)
 
-## Modelo Lógico de la Base de Datos
+## Database Logical Model
 
 ![assets/Logic_Model.png](assets/Logic_Model.png)
 
-## Estructura de la Base de Datos
+## Database structure
 
 La base de datos está compuesta por las siguientes tablas:
 
